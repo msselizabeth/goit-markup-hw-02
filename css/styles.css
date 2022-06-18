@@ -1,0 +1,36 @@
+
+:root {
+    --color-primary: #212121 ;
+    --color-active: #2196f3;
+    --color-secondary: #757575;
+    --background-color-primary: #fff;
+    --font-family-primary: 'Roboto', sans-serif;
+    --font-family-logo: 'Raleway', sans-serif;
+}
+
+body { font-family: var(--font-family-primary);
+ font-family: var(--font-family-logo);
+ color: var(--color-primary);
+ background-color: var(--background-color-primary);
+}
+
+/* Шапка  */
+   .logo {color: var(--color-primary);
+    font-family: var(--font-family-logo);}   
+
+    .logo-word { color: var(--color-active);}
+
+    .menu-item { color: transparent;}
+    .menu-link { color: var(--color-primary);}
+    .menu-link:hover {color: var(--color-active); }
+
+    .menu-contacts { color: var(--color-secondary);}
+    .menu-contacts:hover {color: var(--color-active);}
+  
+    /* Кнопка */
+.background-button { background-color: #2f303a;}
+.title-button { color: #fff;}    
+.button-main {color: #fff;
+    background-color: #2196f3; }
+.button-main:hover {visibility: hidden;}
+
