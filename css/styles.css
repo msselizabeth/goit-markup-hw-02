@@ -31,6 +31,48 @@ body { font-family: var(--font-family-primary);
 .background-button { background-color: #2f303a;}
 .title-button { color: #fff;}    
 .button-main {color: #fff;
-    background-color: #2196f3; }
-.button-main:hover {visibility: hidden;}
+    background-color: var(--color-active); 
+ border-radius: 4px;
+ border: 1px;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
+.button-main:hover {background-color: #188CE8;
+color: #fff;}
 
+/* Преимущества */
+.benefits-item { color: transparent;}
+.benefits-title {
+    color: var(--color-primary);}
+.benefits-paragraph { color: var(--color-secondary);}
+
+/* Чем мы занимаемся */
+.services-item { color: transparent;}
+
+/* Команда */
+.team {background-color: #f5f4fa;}
+.team-item {color: transparent;
+background-color: #fff;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;}
+.name{color: var(--color-primary);}
+.job {color: var(--color-secondary);}
+
+/* Подвал */
+.footer { background-color: #2f303a;}
+.address { color: #fff;}
+.footer-contacts { color: var(--color-secondary);}
+
+/* Кнопки портфолио */
+.buttons {color: var(--color-primary);
+background-color: #f5f4fa;
+cursor: pointer;
+border-radius: 4px;
+border: 1px;}
+.buttons:hover {background-color: #2196f3;}
+.buttons-item {color: transparent;}
+
+/*Примеры работ */
+.examples-item { color: transparent;
+ border: 1px solid #EEEEEE;}
+
+ .examples-title {color: var(--color-primary);}
+ .examples-form { color: var(--color-secondary);}
