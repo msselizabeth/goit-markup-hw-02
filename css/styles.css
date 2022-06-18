@@ -12,13 +12,21 @@ body { font-family: var(--font-family-primary);
  font-family: var(--font-family-logo);
  color: var(--color-primary);
  background-color: var(--background-color-primary);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.17;
 }
 
 /* Шапка  */
    .logo {color: var(--color-primary);
-    font-family: var(--font-family-logo);}   
+    font-family: var(--font-family-logo);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.94;}   
 
     .logo-word { color: var(--color-active);}
+
+    .menu { font-weight: 500;}
 
     .menu-item { color: transparent;}
     .menu-link { color: var(--color-primary);}
@@ -26,43 +34,68 @@ body { font-family: var(--font-family-primary);
 
     .menu-contacts { color: var(--color-secondary);}
     .menu-contacts:hover {color: var(--color-active);}
+    .menu-contacts:focus { color: var(--color-active); }
   
     /* Кнопка */
 .background-button { background-color: #2f303a;}
-.title-button { color: #fff;}    
-.button-main {color: #fff;
-    background-color: var(--color-active); 
+.title-button { color: #fff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;}    
+.button-main {
+ color: #fff;
+ font-weight: 700;
+ line-height: 1.88;
+ cursor: pointer;
+ background-color: var(--color-active); 
  border-radius: 4px;
  border: 1px;
- box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 .button-main:hover {background-color: #188CE8;
 color: #fff;}
 
 /* Преимущества */
 .benefits-item { color: transparent;}
-.benefits-title {
-    color: var(--color-primary);}
-.benefits-paragraph { color: var(--color-secondary);}
+.benefits-title {color: var(--color-primary);
+    font-weight: 700;
+    }
+.benefits-paragraph { color: var(--color-secondary);
+    }
 
 /* Чем мы занимаемся */
 .services-item { color: transparent;}
+.service-title { font-weight: 700;
+    font-size: 36px;}
 
 /* Команда */
 .team {background-color: #f5f4fa;}
 .team-item {color: transparent;
 background-color: #fff;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;}
-.name{color: var(--color-primary);}
+    border-radius: 0px 0px 4px 4px;}  
+.team-title { font-weight: 700;
+  font-size: 36px;}
+.name{color: var(--color-primary);
+font-weight: 500;
+line-height: 1.18;}
 .job {color: var(--color-secondary);}
 
 /* Подвал */
-.footer { background-color: #2f303a;}
-.address { color: #fff;}
+.footer-logo {color: #fff;}
+.footer { background-color: #2f303a;
+    }
+.address { color: #fff;
+font-style: normal;}
 .footer-contacts { color: var(--color-secondary);}
+.footer-contacts:hover {color: var(--color-active);}
+..footer-contacts:focus {color: var(--color-active);}
 
 /* Кнопки портфолио */
 .buttons {color: var(--color-primary);
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.62;
 background-color: #f5f4fa;
 cursor: pointer;
 border-radius: 4px;
@@ -74,5 +107,10 @@ border: 1px;}
 .examples-item { color: transparent;
  border: 1px solid #EEEEEE;}
 
- .examples-title {color: var(--color-primary);}
- .examples-form { color: var(--color-secondary);}
+ .examples-title {color: var(--color-primary);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;}
+ .examples-form { color: var(--color-secondary);
+    font-size: 16px;
+    line-height: 1.87;}
