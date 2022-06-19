@@ -13,7 +13,6 @@
 }
 
 body { font-family: var(--font-family-primary);
- font-family: var(--font-family-logo);
  color: var(--color-primary);
  background-color: var(--background-color-primary);
 font-weight: 400;
@@ -51,6 +50,7 @@ line-height: 1.17;
     line-height: 1.36;}    
 .button-main {
  color: var(--color-text);
+ font-family: var(--font-family-primary);
  font-weight: 700;
  line-height: 1.88;
  cursor: pointer;
@@ -71,7 +71,7 @@ line-height: 1.17;
 
 /* Чем мы занимаемся */
 .services-item { color: transparent;}
-.service-title { font-weight: 700;
+.services-title { font-weight: 700;
     font-size: 36px;}
 
 /* Команда */
@@ -89,21 +89,25 @@ line-height: 1.18;}
 
 /* Подвал */
 .footer-logo {color: var(--color-text);
-text-decoration: none;}
+text-decoration: none;
+line-height: 1.192;}
 .footer { background-color: var(--background-color-bord);
+    line-height: 1.72;
     }
 .address { color: var(--color-text);
-font-style: normal;}
+font-style: normal;
+}
 .footer-contacts { color: var(--color-secondary);
 text-decoration: none;}
 .footer-contacts:hover {color: var(--color-active);}
-..footer-contacts:focus {color: var(--color-active);}
+.footer-contacts:focus {color: var(--color-active);}
 
 /* Кнопки портфолио */
-.buttons {color: var(--color-primary);
+.buttons { font-family: var(--font-family-primary);
+    color: var(--color-primary);
      font-weight: 500;
      font-size: 16px;
-     line-height: 1.62;
+     line-height: 1.625;
 background-color: var(--background-color-section);
 cursor: pointer;
 border-radius: 4px;
