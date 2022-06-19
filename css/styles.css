@@ -20,6 +20,7 @@ line-height: 1.17;
 /* Шапка  */
    .logo {color: var(--color-primary);
     font-family: var(--font-family-logo);
+    text-decoration: none;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.94;}   
@@ -29,10 +30,12 @@ line-height: 1.17;
     .menu { font-weight: 500;}
 
     .menu-item { color: transparent;}
-    .menu-link { color: var(--color-primary);}
+    .menu-link { color: var(--color-primary);
+    text-decoration: none;}
     .menu-link:hover {color: var(--color-active); }
 
-    .menu-contacts { color: var(--color-secondary);}
+    .menu-contacts { color: var(--color-secondary);
+    text-decoration: none;}
     .menu-contacts:hover {color: var(--color-active);}
     .menu-contacts:focus { color: var(--color-active); }
   
@@ -82,12 +85,14 @@ line-height: 1.18;}
 .job {color: var(--color-secondary);}
 
 /* Подвал */
-.footer-logo {color: #fff;}
+.footer-logo {color: #fff;
+text-decoration: none;}
 .footer { background-color: #2f303a;
     }
 .address { color: #fff;
 font-style: normal;}
-.footer-contacts { color: var(--color-secondary);}
+.footer-contacts { color: var(--color-secondary);
+text-decoration: none;}
 .footer-contacts:hover {color: var(--color-active);}
 ..footer-contacts:focus {color: var(--color-active);}
 
