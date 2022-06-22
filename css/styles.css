@@ -30,7 +30,7 @@ font-size: 14px;
 
     .logo-word { color: var(--color-active);}
 
-    .menu-item { color: transparent;}
+    
     .menu-link { color: var(--color-primary);
     text-decoration: none;
     font-weight: 500;
@@ -70,7 +70,7 @@ font-size: 14px;
 .button-main:hover {background-color: var(--background-color-click);}
 
 /* Преимущества */
-.benefits-item { color: transparent;}
+
 .benefits-title {color: var(--color-primary);
     font-weight: 700;
     text-transform: uppercase;
@@ -83,7 +83,7 @@ font-size: 14px;
     }
 
 /* Чем мы занимаемся */
-.services-item { color: transparent;}
+
 .services-title { font-weight: 700;
     font-size: 36px;
     line-height: 1.172;
@@ -91,7 +91,7 @@ font-size: 14px;
 
 /* Команда */
 .team {background-color: var(--background-color-section);}
-.team-item {color: transparent;
+.team-item {
 background-color: var(--background-color-primary);
  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;}  
@@ -140,10 +140,10 @@ cursor: pointer;
 border-radius: 4px;
 border: 1px;}
 .buttons:hover {background-color: var(--color-active);}
-.buttons-item {color: transparent;}
+
 
 /*Примеры работ */
-.examples-item { color: transparent;
+.examples-item { 
  border: 1px solid #EEEEEE;}
 
  .examples-title {color: var(--color-primary);
@@ -154,3 +154,16 @@ border: 1px;}
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;}
+
